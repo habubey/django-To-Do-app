@@ -1,0 +1,23 @@
+ 
+ {% extends 'todo/base.html' %}
+ 
+ 
+ {% block content %}
+ 
+ <h2>
+     <center>
+         
+
+         <br>
+         WELCOME
+         <br>
+
+   <button> <a href = "{% url 'add' %}"> Add </a>
+    <br>
+    <button> <a href = "{% url 'list' %}"> List </a>
+ </center>
+  
+ </h2>
+ 
+ 
+ {% endblock  %}
